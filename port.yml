@@ -1,0 +1,11 @@
+- identifier: some_identifier
+  title: Some Title
+  team: []
+  icon: DefaultBlueprint
+  blueprint: workload
+  properties:
+    version: string
+  relations:
+    k8s_workload: related_entity_identifier
+    environment: related_entity_identifier
+    service: related_entity_identifier
